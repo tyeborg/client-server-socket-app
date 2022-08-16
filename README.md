@@ -52,7 +52,7 @@ As the Kernel module is listening to incoming connections, you (as the client) c
 
 ## Additional Information
 
-To access the kernel messages that are printed onto the log, use the following command in the terminal: `dmesg`
+To access kernel messages that are printed onto the log, use the following command in the terminal: `dmesg`
 
 ## Project Evaluation
 
