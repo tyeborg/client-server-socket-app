@@ -68,6 +68,6 @@ To access kernel messages that are printed onto the log, use the following comma
 * **Logic**: Excellent (Program logic is correct with no known boundary errors, and no redundant or contradictory conditions)
 * **Robutness**: Good (Program handles almost all erroneous or unexpected input gracefully without surprising the user)
 * **Error Freedom**: Good (All obvious errors are removed but there are some smaller issues not rectified -- Program will compile and run)
-* **Clarity**: Program contains appropriate documentation for all major functions, variables, or non-trivial algorithms -- Formatting indentation, and other white space aids readability)
+* **Clarity**: Excellent (Program contains appropriate documentation for all major functions, variables, or non-trivial algorithms -- Formatting indentation, and other white space aids readability)
 
 **Grade:** 78.00 / 100.00
