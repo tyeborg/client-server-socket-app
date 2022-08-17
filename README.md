@@ -63,11 +63,11 @@ To access kernel messages that are printed onto the log, use the following comma
 
 *"Kernel module builds and runs, but it doesn't seem to always get a file, and cannot reconnect. So, generally working and well put together with a few bugs in place."* - Kevin Chalmers 
 
-* **Solution**: Excellent (A running solution meeting all the specification)
-* **Correctness**: Good (Program produces correct answers or appropriate results for the majority of inputs)
-* **Logic**: Excellent (Program logic is correct with no known boundary errors, and no redundant or contradictory conditions)
-* **Robutness**: Good (Program handles almost all erroneous or unexpected input gracefully without surprising the user)
-* **Error Freedom**: Good (All obvious errors are removed but there are some smaller issues not rectified -- Program will compile and run)
-* **Clarity**: Excellent (Program contains appropriate documentation for all major functions, variables, or non-trivial algorithms -- Formatting indentation, and other white space aids readability)
+* **Solution**: `Excellent` (A running solution meeting all the specification)
+* **Correctness**: `Good` (Program produces correct answers or appropriate results for the majority of inputs)
+* **Logic**: `Excellent` (Program logic is correct with no known boundary errors, and no redundant or contradictory conditions)
+* **Robutness**: `Good` (Program handles almost all erroneous or unexpected input gracefully without surprising the user)
+* **Error Freedom**: `Good` (All obvious errors are removed but there are some smaller issues not rectified -- Program will compile and run)
+* **Clarity**: `Excellent` (Program contains appropriate documentation for all major functions, variables, or non-trivial algorithms -- Formatting indentation, and other white space aids readability)
 
 **Grade:** 78.00 / 100.00
