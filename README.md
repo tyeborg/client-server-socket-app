@@ -61,7 +61,7 @@ To access kernel messages that are printed onto the log, use the following comma
 
 ## Languages & Tools Utilized
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="100" width="100" />
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="50" width="50" />
 
 ## Project Evaluation
 
