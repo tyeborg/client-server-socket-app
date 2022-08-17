@@ -54,7 +54,7 @@ sudo insmod server.ko
 
 6. As the Kernel module is listening to incoming connections, the client [you] can fulfill them if and only if both modules are running on the same port. Therefore in the Client module, ensure <ins>*5000*</ins> is entered when prompted with which port to connect to. 
 
-7. When a connection is received, enter the absolute filename that is desired to be read. 
+7. When a connection is received, enter the absolute filename that is desired to be read (in the Client module). 
 
 ## Additional Information
 
