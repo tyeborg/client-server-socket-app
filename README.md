@@ -45,7 +45,7 @@ sudo insmod server.ko
 
 *Viola! At this point, the Kernel module launched a kernel thread which will listen to incoming connections on the defined port of 5000.*
 
-5. Open a separate terminal to build the Client module
+5. Open a separate terminal to build the Client module.
     * Build the Client module using `gcc client.c -o client` on the terminal.
     * Run the Client module using `./client` on the terminal.
 
@@ -53,7 +53,7 @@ sudo insmod server.ko
 
 6. As the Kernel module is listening to incoming connections, the client [you] can fulfill them if and only if both modules are running on the same port. Therefore in the Client module, ensure <ins>*5000*</ins> is entered when prompted with which port to connect to. 
 
-7. When a connection is received, enter the absolute filename that is desired to be read 
+7. When a connection is received, enter the absolute filename that is desired to be read. 
 
 ## Additional Information
 
@@ -62,5 +62,12 @@ To access kernel messages that are printed onto the log, use the following comma
 ## Project Evaluation
 
 *"Kernel module builds and runs, but it doesn't seem to always get a file, and cannot reconnect. So, generally working and well put together with a few bugs in place."* - Kevin Chalmers 
+
+* **Solution**: Excellent (A running solution meeting all the specification)
+* **Correctness**: Good (Program produces correct answers or appropriate results for the majority of inputs)
+* **Logic**: Excellent (Program logic is correct with no known boundary errors, and no redundant or contradictory conditions)
+* **Robutness**: Good (Program handles almost all erroneous or unexpected input gracefully without surprising the user)
+* **Error Freedom**: Good (All obvious errors are removed but there are some smaller issues not rectified -- Program will compile and run)
+* **Clarity**: Program contains appropriate documentation for all major functions, variables, or non-trivial algorithms -- Formatting indentation, and other white space aids readability)
 
 **Grade:** 78.00 / 100.00
