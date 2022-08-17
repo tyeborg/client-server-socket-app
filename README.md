@@ -1,7 +1,7 @@
 # Listening Linux Kernel Module Project
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tyeborg/client-server-socket-app)
-![Github language](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![GitHub top language](https://img.shields.io/github/languages/top/tyeborg/client-server-socket-app)
 
 This is a fully operational project (written in C) demonstrating how to develop a Linux Kernel Module that is able to listen to incoming connections.
 
