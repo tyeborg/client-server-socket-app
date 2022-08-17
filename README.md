@@ -9,7 +9,7 @@ Every component of this project evaluates the following:
 
 ## Installation
 
-Clone this repository by git clone https://github.com/tyeborg/client-server-socket-app.git
+Clone this repository by `git clone https://github.com/tyeborg/client-server-socket-app.git`
 
 ## Usage
 
@@ -18,7 +18,7 @@ Clone this repository by git clone https://github.com/tyeborg/client-server-sock
 ```bash
 sudo apt install linux-headers-$(uname –r)
 ```
-2. Afterwards, open a terminal to commence initialization of the Kernel module. **To build the Kernel module, the Makefile is needed**.
+2. Open a terminal to commence initialization of the Kernel module. **(To build the Kernel module, the Makefile is needed)**
 
 The content within the Makefile is displayed below:
 
@@ -43,12 +43,14 @@ sudo insmod server.ko
 *Viola! At this point, the Kernel module launched a kernel thread which will listen to incoming connections on the defined port of 5000.*
 
 5. Open a separate terminal to build the Client module
-    * Build the module using `gcc client.c -o client` on the terminal.
-    * Run the module using `./client` on the terminal.
+    * Build the Client module using `gcc client.c -o client` on the terminal.
+    * Run the Client module using `./client` on the terminal.
 
-*Fantastic, the Client module and the Kernel module are running together simultaneously! Now it is time to establish a connection between them...*
+*Fantastic, the Client module and the Kernel module are running simultaneously! Now it is time to establish a connection between them...*
 
-As the Kernel module is listening to incoming connections, you (as the client) can fulfill them if and only if both modules are running on the same port. Therefore in the Client module, ensure <ins>*5000*</ins> is entered when prompted with which port to connect to. When a connection is received, an absolute filename is able to be read from the client.
+6. As the Kernel module is listening to incoming connections, the client [you] can fulfill them if and only if both modules are running on the same port. Therefore in the Client module, ensure <ins>*5000*</ins> is entered when prompted with which port to connect to. 
+
+7. When a connection is received, enter the absolute filename that is desired to be read 
 
 ## Additional Information
 
